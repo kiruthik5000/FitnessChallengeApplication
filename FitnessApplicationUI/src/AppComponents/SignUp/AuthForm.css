@@ -19,4 +19,8 @@ background: radial-gradient(circle, transparent 0%, darkgreen 100%);
 .auth-button {
   color: #000;
   margin-top: 20px;
+  transition: background-color 0.5s, transition 0.2s;
+}
+.auth-button:hover{
+  transform: scale(1.05);
 }
